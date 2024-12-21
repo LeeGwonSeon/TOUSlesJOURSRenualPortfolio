@@ -1,0 +1,1176 @@
+@charset "utf-8";
+
+html{
+    width: 100%;
+    margin: 0 auto;
+}
+
+body{
+    background: #F7F0DA;
+}
+
+header {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 80px; 
+    background: #0D4633;
+    z-index: 100;
+}
+.header_top_center{
+    width: 82.222%;
+    margin: 0 auto;
+}
+.header_top_snslogo_out{
+    display: none;
+}
+.open_btn{
+    position: absolute;
+    top: 28px;
+    right: 8.888%;
+}
+.open_btn span{
+    display: block;
+    border: 1px solid #fff;
+    margin-bottom: 8px;
+    width: 26px;
+}
+nav{
+    width: 100%;
+}
+.nav_wrap{
+    position: fixed;
+    top: 0; right: -80%;
+    width: 260px; height: 100%;
+    background: #0D4633;
+    z-index: 100;
+}
+.gnb {
+    width: 100%; line-height: 50px;
+    text-align: center;
+}
+.close_btn{
+    position: absolute;
+    top: 34px;
+    right: 18.888%;
+    width: 6px;
+    height: 6px;
+    cursor: pointer;
+}
+.close_btn span {
+    display: block;
+    position: absolute;
+    transform: translate(-50%);
+    border: 1px solid #fff;
+    margin-bottom: 8px;
+    width: 28px;
+}
+.close_btn span:first-child{
+    transform: rotate(45deg);
+}
+.close_btn span:last-child{
+    transform: rotate(-45deg);
+}
+.header_top_list{
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: left;
+}
+.gnb li a{
+    display: block;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.header_top_snslogo_in{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.header_top_snslogo_in li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_top_snslogo_in>li:nth-child(2){
+    margin-left: 6px;
+}
+.header_top_snslogo_in>li:nth-child(3){
+    margin-left: 14px;
+}
+.header_top_logo>a>img{
+    margin: 26px 0;
+    width: 189px;
+}
+.header_top_snslogo_in>li>a>img{
+    width: 30px;
+}
+.header_background{
+    margin-top: 80px;
+    background: url("../img/1_03_header_backgroundImage.png") no-repeat center/cover;
+    padding-top: 213px;
+    width: 100%;
+    height: 500px;
+}
+.header_background>div{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.header_background>div>h2,
+.header_bottomline,
+.header_background>div>h3{
+    font-weight: normal;
+}
+.header_bottomline{
+    margin: 20px auto;
+    border-bottom: 2px solid #fff;
+    width: 160px;
+}
+.header_background>div>h2{
+    font-size: 38px;
+}
+.header_background>div>h3{
+    font-size: 26px;
+}
+.bottomline{
+    margin: 12px auto;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #FFD1A9;
+    width: 50px;
+    text-align: center;
+}
+main .title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #0D4633;
+}
+main .subtitle{
+    margin-bottom: 32px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    line-height: 22px;
+}
+main .story{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 18px;
+}
+/* 가운데 칼럼 정렬 */
+.brandstory{
+    width: 82.222%;
+    margin: 0 auto;
+}
+.ingredients{
+    width: 82.222%;
+    margin: 0 auto;
+}
+.newtouslesjours_story{
+    width: 82.222%;
+    margin: 0 auto;
+}
+.productinformation_story{
+    width: 82.222%;
+    margin: 0 auto;
+}
+.productinformation_btn{
+    width: 82.222%;
+    margin: 0 auto;
+}
+.productinformation_slider_box{
+    width: 82.222%;
+    margin: 0 auto;
+}
+.productinformation_indecator{
+    width: 82.222%;
+    margin: 0 auto;
+}
+.recommend_slider>div:first-child{
+    width: 82.222%;
+    margin: 0 auto;
+}
+.recommend_left{
+    width: 82.222%;
+    margin: 0 auto;
+}
+.findstore_title{
+    width: 82.222%;
+    margin: 0 auto;
+}
+.findstore_story{
+    width: 82.222%;
+    margin: 0 auto;
+}
+
+/* 브랜드 스토리 영역 */
+.brandstory_box{
+    position: relative;
+    margin-top: 140px;
+}
+.brandstory_left>.subtitle{
+    width: 70%;
+    margin: 0 auto;
+}
+.brandstory_left>.story{
+    margin: 24px 0 30px;
+}
+.brandstory_left>.a_btn{
+    position: absolute;
+    display: inline-block;
+    bottom: -80px;
+    left: 50%;
+    transform: translate(-50%);
+    background: #2C604A;
+    color: #fff;
+    width: 136px; height: 49px;
+    padding-top: 18px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+.brandstory_image{
+    background: url("../img/2_main_brandStory.png") no-repeat center/cover;
+    width: 97%;
+    height: 250px;
+    box-shadow:10px 9px 0px 0px #2C604A;
+}
+
+/* 뚜레쥬르 재료이야기 영역 */
+.ingredients_box{
+    margin-top: 222px;
+}
+.ingredients_story:nth-child(1){
+    margin-bottom: 30px;
+}
+.ingredients_image{
+    background: url("../img/3_01_main_ingredients_story.png") no-repeat center/cover;
+    margin: auto 0;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 242px;
+}
+.ingredients_story:nth-child(2), 
+.ingredients_story:nth-child(2)>div>h2,
+.ingredients_story:nth-child(2)>div>p{
+    text-align: right;
+}
+.ingredients_story .subtitle{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #0D4633;
+}
+.ingredients_story:nth-child(2) .bottomline{
+    margin-right: 4px;
+    margin-top: -20px;
+}
+.ingredients_story:nth-child(2) .story{
+    width: 81.111%;
+    margin-left: auto;
+    font-size: 14px;
+    margin-bottom: 36px;
+}
+.ingredients_story:nth-child(2) .a_btn{
+    display: inline-block;
+    background: #2C604A;
+    color: #fff;
+    width: 136px; height: 49px;
+    padding-top: 18px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.ingredients_story:nth-child(3), 
+.ingredients_story:nth-child(3)>div>h2,
+.ingredients_story:nth-child(3)>div>p{
+    text-align: left;
+}
+.ingredients_story:nth-child(3){
+    margin-left: 4px;
+}
+.ingredients_image2{
+    background: url("../img/3_02_main_ingredients_story.png") no-repeat center/cover;
+    margin: auto 0;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 242px;
+}
+.ingredients_story:nth-child(3) .bottomline{
+    margin-left: 4px;
+    margin-top: -20px;
+}
+.ingredients_story:nth-child(3) .story:first-child{
+    width: 81.666%;
+    margin-right: auto;
+    font-size: 14px;
+    margin-bottom: 36px;
+}
+.ingredients_story:nth-child(3) .story:last-child{
+    font-size: 14x;
+    margin-bottom: 36px;
+}
+.ingredients_story:nth-child(3) .a_btn{
+    display: inline-block;
+    background: #2C604A;
+    color: #fff;
+    margin-top: 36px;
+    width: 136px; height: 49px;
+    padding-top: 18px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 141px;
+}
+
+/* 새로워진 뚜레쥬르 영역 */
+.newtouslesjours_box{
+    position: relative;
+}
+.newtouslesjours_background{
+    position: absolute;
+    width: 100%;
+    height: 74.444%;
+    background: #0D4633;
+}
+.newtouslesjours_story{
+    position: relative;
+    width: 100%;
+    padding-bottom: 92px;
+    z-index: 0;
+}
+.newtouslesjours_left>h2, .newtouslesjours_left>p{
+    color: #fff;
+}
+.newtouslesjours_left>h2{
+    padding-top: 50px;
+}
+.newtouslesjours_left>p{
+    text-align: center;
+    margin: 0 auto;
+    width: 80.555%;
+}
+.newtouslesjours_left>a{
+    display: inline-block;
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 358px;
+    background: #2C604A;
+    color: #fff;
+    width: 136px; height: 49px;
+    padding-top: 18px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    bottom: 0;
+}
+.newtouslesjours_right{
+    margin: 30px auto 0;
+    background: url("../img/4_main_freshtouslesjours.png") no-repeat center/cover;
+    width: 79%; height: 242px;
+    box-shadow:10px 9px 4px #00000048;
+}
+
+/* 제품안내 영역 */
+.productinformation{
+    margin: 140px 0px;
+    position: relative;
+}
+.productinformation_background{
+    position: absolute;
+    width: 100%;
+    height: 618px;
+    background: #897058;
+}
+.productinformation_story, .productinformation_btn, .productinformation_slider, .productinformation_indecator{
+    position: relative;
+}
+.productinformation_slider{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    margin-left: auto;
+}
+.productinformation_box{
+    color: #fff;
+}
+.productinformation_story>h2{
+    padding-top: 50px;
+    color: #fff;
+    text-align: left;
+}
+.productinformation_story>div{
+    margin-left: 4px;
+}
+.productinformation_story>p{
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+.productinformation_btn{
+    margin-left: 11.666%;
+    margin-bottom: 18px;
+    color: #fff;
+}
+.productinformation_btn a{
+    margin-right: 14px;
+    font-size: 14px;
+    color: #C4C2C2;
+}
+.productinformation_btn>a:first-child{
+    color: #fff;
+    font-weight: bold;
+}
+.productinformation_slide{
+    display: inline-block;
+    position: relative;
+    width: 84.2%;
+    text-align: center;
+}
+.productinformation_slide:nth-child(1)>.slide_image{
+    background: url("../img/5_01_main_productinformation.png") no-repeat center/auto 100% #fff;
+    width: 100%;
+    height: 306px;
+}
+.productinformation_slide:nth-child(2)>.slide_image{
+    background: url("../img/5_02_main_productinformation.png") no-repeat center/auto 100% #fff;
+    width: 100%;
+    height: 306px;
+}
+.productinformation_slide:nth-child(3)>.slide_image{
+    background: url("../img/5_03_main_productinformation.png") no-repeat center/auto 100% #fff;
+    width: 100%;
+    height: 306px;
+}
+.productinformation_slide:nth-child(4)>.slide_image{
+    background: url("../img/5_04_main_productinformation.png") no-repeat center/auto 100% #fff;
+    width: 100%;
+    height: 306px;
+}
+.slide_price{
+    margin-top: 12px;
+    font-weight: normal;
+    font-size: 14px;
+}
+.slide_price_left{
+    float: left;
+}
+.slide_price_right{
+    float: right;
+}
+.productinformation_slide .a_btn {
+    display: block;
+    padding-top: 30px;
+    width: 32px;
+    text-align: left;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+/* 페이지 인디케이터 기본 스타일 */
+.swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    margin-top: 30px;
+    margin-right: 5px;
+    background: #C4C2C2;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.6;
+    transition: background-color 0.3s, opacity 0.3s;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #fff;
+    opacity: 1.0;
+  }
+
+
+/* 추천제품 영역 */
+.recommend {
+    margin-top: 210px;
+    position: relative;
+}
+.recommend_background{
+    position: absolute;
+    background: #365442;
+    width: 100%;
+    height: 286px;
+    clip-path: polygon(0 0,60% 0, 94% 100%, 0 100%);
+}
+.recommend_slider{
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.recommend_slider h2{
+    padding-top: 50px;
+    width: 100%;
+    color: #fff;
+    text-align: left;
+}
+.recommend_slider .bottomline{
+    margin-left: 4px;
+}
+.recommend_title{
+    margin-left: 4px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 46px;
+}
+.recommend_story{
+    display: none;
+    font-weight: normal;
+    color: #fff;
+    width: 373px;
+}
+.recommend_btn{
+    margin-left: 6px;
+    color: #fff;
+    text-align: left;
+    width: 80px;
+}
+.recommend_slide{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+}
+.recommend_slide_image {
+    background: url("../img/6_main_sandwich.png") no-repeat center/contain;
+    margin: -116px 70px 10px;
+    width: 90%;
+    height: 364px;
+}
+.swiper-button-next, .swiper-button-prev{
+    width: 40px;
+    height: 40px;
+    border-radius: 40%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.swiper-button-next::before{
+    content: '';
+    border: solid #000;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 12px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.swiper-button-prev::before{
+    content: '';
+    border: solid #fff;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 12px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.swiper-button-next{
+    right: 4px;
+}
+.swiper-button-prev{
+    left: 4px;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled{
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+/* 매장찾기 영역 */
+.findstore{
+    position: relative;
+}
+.findstore_background{
+    background: url("../img/7_main_findingthestore.png") no-repeat center/cover;
+    position: absolute;
+    width: 100%;
+    height: 275px;
+}
+.findstore_title,
+.findstore_story{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 14px;
+}
+.findstore_title{
+    padding-top: 86px;
+}
+.findstore_search{
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.input_wrapper{
+    position: relative;
+    width: 100%;
+}
+.findstore_search>form{
+    position: absolute;
+}
+.searchstore{
+    width: 100%;
+    box-sizing: border-box;
+}
+.searchstore_input{
+    width: 168px;
+    margin: auto 0;
+}
+.searchstore_btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url("../img/7_main_findingthestore_d.png") no-repeat center/contain;
+    width: 20px;
+    height: 100%;
+    border: none;
+    color: #000;
+    cursor: pointer;
+}
+
+/* 신선한 빵 설명 영역 */
+.fresh_bread{
+    margin-top: 268px;
+    position: relative;
+}
+.fresh_bread_box{
+    display: flex;
+    justify-content: flex-end; 
+    position: relative;
+}
+.fresh_bread_background{
+    background: url("../img/8_main_haveagoodbread.png")no-repeat center/cover;
+    position: absolute;
+    width: 100%;
+    height: 366px;
+}
+
+.fresh_bread_story{
+    text-align: left;
+    position: relative;
+    background: #fff;
+    opacity: 0.6;
+    top: 150px;
+    width: 261px;
+    height: 129px;
+    margin-right: 40px;
+    margin-left: auto; 
+}
+.fresh_bread_story h3{
+    margin-left: 14px;
+    font-size: 26px;
+    font-weight: normal;
+}
+.fresh_bread_story p {
+    margin-top: 6px;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.fresh_bread_story>h3:nth-child(1){
+    margin-top: 20px;
+}
+.fresh_bread_story>h3:nth-child(2){
+    margin-top: 4px;
+}
+footer{
+    margin-top: 236px;
+    position: relative;
+}
+.footer_container{
+    position: absolute;
+    background: #072B1F;
+    width: 100%;
+    height: 480px;
+}
+.footer_box{
+    width: 82.222%;
+    margin: 0 auto;
+    color: #fff;
+}
+.footer_title{
+    margin-top: 68px;
+    background: url("../img/1_01_header_bread_logo.png") no-repeat center/contain;
+    height: 25px;
+}
+.footer_title_line{
+    margin: 20px auto;
+    border-bottom: 2px solid #fff;
+    width: 116px;
+}
+.footer_btn{
+    margin-top: 52px;
+    font-weight: normal;
+    font-size: 14px;
+    width: 250px;
+}
+.footer_btn a{
+    color: #fff;
+    margin: 0 8px;
+}
+.information{
+    margin-top: 32px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.information span{
+    margin: 0 4px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+header {
+    height: 122px; 
+}
+.header_top_center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 89.062%;
+}
+.header_top_snslogo_out{
+    display: flex;
+    position: absolute;
+    right: 100px;
+}
+.header_top_snslogo_out li a{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.header_top_snslogo_out>li:nth-child(2){
+    margin-left: 6px;
+}
+.header_top_snslogo_out>li:nth-child(3){
+    margin-left: 14px;
+}
+.header_top_snslogo_out>li>a>img{
+    width: 30px;
+}
+.open_btn{
+    top: 48px;
+    right: 5.468%;
+}
+.open_btn span{
+    margin-bottom: 11px;
+    width: 30px;
+}
+.header_top_snslogo_in{
+    display: none;
+}
+.header_top_logo>a>img{
+    margin: 34px 0px;
+    width: 374px;
+}
+.header_background{
+    margin-top: 120px;
+    padding-top: 246px;
+    height: 722px;
+}
+.header_bottomline{
+    margin: 32px auto;
+    border-bottom: 4px solid #fff;
+    width: 264px;
+}
+.header_background>div>h2{
+    font-size: 64px;
+}
+.header_background>div>h3{
+    font-size: 42px;
+}
+.bottomline{
+    margin: 34px auto;
+    margin-bottom: 60px;
+    width: 100px;
+}
+main .title{
+    font-size: 50px;
+}
+main .subtitle{
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 26px;
+}
+main .story{
+    font-size: 20px;
+}
+/* 가운데 칼럼 정렬 */
+.brandstory{
+    width: 89.062%;
+}
+.ingredients{
+    width: 89.062%;
+}
+.newtouslesjours_story{
+    width: 89.062%;
+}
+.productinformation_story{
+    width: 89.062%;
+}
+.productinformation_btn{
+    width: 89.062%;
+}
+.productinformation_slider_box{
+    width: 89.062%;
+}
+.productinformation_indecator{
+    width: 89.062%;
+}
+.recommend_slider>div:first-child{
+    width: 89.062%;
+}
+.recommend_left{
+    width: 89.062%;
+}
+.findstore_title{
+    width: 89.062%;
+}
+.findstore_story{
+    width: 89.062%;
+}
+
+/* 브랜드 스토리 영역 */
+.brandstory_box{
+    margin-top: 200px;
+}
+.brandstory_left>.story{
+    margin: 30px 0 60px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.brandstory_left>.a_btn{
+    bottom: -140px;
+    width: 234px; height: 64px;
+    padding-top: 20px;
+    font-size: 23px;
+}
+.brandstory_image{
+    width: 98%; 
+    height: 484px;
+    box-shadow:16px 14px 0px 0px #2C604A;
+}
+
+/* 뚜레쥬르 재료이야기 영역 */
+.ingredients_box{
+    margin-top: 354px;
+}
+.ingredients_story>p{
+    line-height: 26px;
+}
+.ingredients_story:nth-child(1){
+    margin-bottom: 60px;
+}
+.ingredients_image{
+    margin-bottom: 60px;
+    height: 540px;
+}
+.ingredients_story:nth-child(2), 
+.ingredients_story:nth-child(2)>div>h2,
+.ingredients_story:nth-child(2)>div>p{
+    line-height: 24px;
+}
+.ingredients_story .subtitle{
+    margin-top: 16px;
+    font-size: 38px;
+}
+.ingredients_story:nth-child(2) .story{
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+.ingredients_story:nth-child(2) .story:first-child{font-size: 20px;}
+.ingredients_story:nth-child(2) .story:last-child{font-size: 18px;}
+.ingredients_story:nth-child(2) .a_btn{
+    width: 234px; height: 64px;
+    padding-top: 20px;
+    font-size: 23px;
+    margin-bottom: 100px;
+}
+.ingredients_story:nth-child(3), 
+.ingredients_story:nth-child(3)>div>h2,
+.ingredients_story:nth-child(3)>div>p{
+    line-height: 24px;
+}
+.ingredients_story:nth-child(3) .story{
+font-size: 18px;
+}
+.ingredients_image2{
+    margin-bottom: 100px;
+    height: 540px;
+}
+.ingredients_story:nth-child(3) .story:first-child{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.ingredients_story:nth-child(3) .story:last-child{
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+.ingredients_story:nth-child(3) .a_btn{
+    margin-top: 70px;
+    width: 234px; height: 64px;
+    padding-top: 20px;
+    font-size: 23px;
+    margin-bottom: 200px;
+}
+
+/* 새로워진 뚜레쥬르 영역 */
+
+.newtouslesjours_background{
+    height: 79.635%;
+}
+.newtouslesjours_story{
+    padding-bottom: 150px;
+}
+.newtouslesjours_left>h2{
+    padding-top: 66px;
+}
+.newtouslesjours_left .bottomline{
+    margin-bottom: 70px;
+}
+.newtouslesjours_left>p{
+    width: 64%; 
+    font-size: 18px;
+    line-height: 22px;
+}
+.newtouslesjours_left>a{
+    width: 234px; height: 64px;
+    padding-top: 20px;
+    font-size: 23px;
+}
+.newtouslesjours_right{
+    margin: 82px auto 0;
+    width: 97%; height: 519px;
+    box-shadow:15px 14px 4px #00000048;
+}
+
+/* 제품안내 영역 */
+.productinformation{
+    margin: 200px 0px;
+}
+.productinformation_background{
+    height: 980px;
+}
+
+.productinformation_story>h2{
+    padding-top: 100px;
+}
+.productinformation_story>div{
+    margin-bottom: 60px;
+}
+.productinformation_story>p{
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+.productinformation_btn{
+    margin-left: 4%;
+    margin-bottom: 24px;
+}
+.productinformation_btn a{
+    margin-right: 29px;
+    font-size: 20px;
+}
+.productinformation_slide{
+    width: 64.2%;
+}
+.productinformation_slide:nth-child(1)>.slide_image{
+    height: 424px;
+}
+.productinformation_slide:nth-child(2)>.slide_image{
+    height: 424px;
+}
+.productinformation_slide:nth-child(3)>.slide_image{
+    height: 424px;
+}
+.productinformation_slide:nth-child(4)>.slide_image{
+    height: 424px;
+}
+.slide_price{
+    margin-top: 16px;
+    font-size: 20px;
+}
+.productinformation_slide .a_btn {
+    padding-top: 64px;
+    width: 46px;
+    font-size: 18px;
+}
+/* 페이지 인디케이터 기본 스타일 */
+.swiper-pagination-bullet {
+    width: 24px;
+    height: 24px;
+    margin-top: 45px;
+    margin-right: 12px;
+    border-radius: 50%;
+  }
+
+
+/* 추천제품 영역 */
+.recommend {
+    margin-top: 262px;
+}
+.recommend_background{
+    height: 687px;
+    clip-path: polygon(0 0,50% 0, 97% 100%, 0 100%);
+}
+.recommend_slider h2{
+    padding-top: 78px;
+}
+.recommend_title{
+    font-size: 40px;
+    padding-bottom: 114px;
+}
+.recommend_story{
+    display: block;
+    white-space: initial;
+    line-height: 22px;
+    font-size: 18px;
+    width: 185px;
+    padding-bottom: 80px;
+}
+.recommend_btn{
+    font-size: 18px;
+}
+.recommend_slide_image {
+    margin: -384px 193px 10px;
+    width: 80%;
+    height: 613px;
+}
+.swiper-button-next, .swiper-button-prev{
+    width: 60px;
+    height: 60px;
+    border-radius: 80%;
+    top: 36%;
+}
+.swiper-button-next::before{
+    border-width: 0 5px 5px 0;
+    padding: 20px;
+}
+.swiper-button-prev::before{
+    border-width: 0 5px 5px 0;
+    padding: 20px;
+}
+.swiper-button-next{
+    right: 12px;
+}
+.swiper-button-prev{
+    left: 12px;
+}
+
+/* 매장찾기 영역 */
+.findstore_background{
+    height: 531px;
+}
+.findstore_title{
+    margin-bottom: 20px;
+}
+.findstore_story{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+.findstore_title{
+    padding-top: 190px;
+    font-size: 50px;
+    font-weight: normal;
+}
+.findstore_search{
+    width: 516px;
+}
+.searchstore_input{
+    width: 328px;
+    height: 34px;
+}
+.searchstore_btn{
+    width: 30px;
+    height: 100%;
+}
+
+/* 신선한 빵 설명 영역 */
+.fresh_bread{
+    margin-top: 430px;
+}
+.fresh_bread_background{
+    height: 536px;
+}
+
+.fresh_bread_story{
+    top: 248px;
+    width: 354px;
+    height: 178px;
+    margin-right: 44px;
+}
+.fresh_bread_story h3{
+    margin-left: 40px;
+    font-size: 32px;
+}
+.fresh_bread_story p {
+    margin-top: 12px;
+    margin-right: 52px;
+    font-size: 16px;
+}
+.fresh_bread_story>h3:nth-child(1){
+    margin-top: 36px;
+}
+.fresh_bread_story>h3:nth-child(2){
+    margin-top: 8px;
+}
+footer{
+    margin-top: 358px;
+}
+.footer_container{
+    height: 506px;
+}
+.footer_box{
+    width: 89.062%;
+}
+.footer_title{
+    margin-top: 95px;
+    margin: 95px auto 0;
+    width: 374px;
+    height: 68px;
+}
+.footer_title_line{
+    width: 220px;
+}
+.footer_btn{
+    margin-top: 85px;
+    padding-left: 16.729%;
+    font-size: 14px;
+    width: 100%;
+}
+.footer_btn a{
+    margin: 0 18px;
+}
+.information{
+    margin-top: 48px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+.information span{
+    margin: 0 20px;
+}
+.information:last-child span{
+    font-size: 18px;
+}
+}
